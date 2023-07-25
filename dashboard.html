@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="card">
+            <h2>Sales</h2>
+            <p>Total Sales: $10,000</p>
+            <p>Top Product: Product A</p>
+            <p>Monthly Growth: +5%</p>
+        </div>
+        <div class="card">
+            <h2>Users</h2>
+            <p>Total Users: 1,000</p>
+            <p>New Users Today: 50</p>
+            <p>Active Users: 800</p>
+        </div>
+        <div class="card">
+            <h2>Inventory</h2>
+            <p>Available Products: 200</p>
+            <p>Out of Stock: 10</p>
+            <p>Expiring Soon: 5</p>
+        </div>
+    </div>
+</body>
+</html>
